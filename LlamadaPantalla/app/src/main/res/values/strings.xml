@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LlamadaPantalla</string>
+    <string name="second_activity">Lanzar APP</string>
+    <string name="segunda_pantalla">Segunda APP</string>
+</resources>
