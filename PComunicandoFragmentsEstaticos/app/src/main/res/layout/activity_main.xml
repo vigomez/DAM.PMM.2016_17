@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    tools:context="com.example.aigua.pcomunicandofragmentsestaticos.MainActivity"
+    android:baselineAligned="false">
+
+    <!-- Introducimos dos fragments estáticos -->
+
+    <fragment android:name="com.example.aigua.pcomunicandofragmentsestaticos.IzquierdaFragment"
+        android:id="@+id/izda_fragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/fragment_izquierda" />
+    <fragment android:name="com.example.aigua.pcomunicandofragmentsestaticos.DerechaFragment"
+        android:id="@+id/drcha_fragment"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/fragment_derecha" />
+</LinearLayout>

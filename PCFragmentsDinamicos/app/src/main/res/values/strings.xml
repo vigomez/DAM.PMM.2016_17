@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PCFragmentsDinamicos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cabecera">Cabecera</string>
+    <string name="contenido">Contenido</string>
+    <string name="noticia_1">Noticia 1</string>
+    <string name="noticia_2">Noticia 2</string>
+    <string name="noticia_3">Noticia 3</string>
+</resources>
