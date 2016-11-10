@@ -1,0 +1,16 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" tools:context="com.example.aigua.pjuegorava.LetrasFragment"
+android:background="#d1dbbd">
+
+<!-- TODO: Update blank fragment layout -->
+<TextView
+    android:id="@+id/tRava"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="@string/letras_rava"
+    android:gravity="center_vertical|center_horizontal"
+    android:textSize="64dp" />
+
+</FrameLayout>
