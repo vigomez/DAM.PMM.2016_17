@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CreacionMenu</string>
+    <string name="perfil">Perfil</string>
+    <string name="home">Inicio</string>
+</resources>

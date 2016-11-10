@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PCamara</string>
+    <string name="fichero">Fichero</string>
+    <string name="lanzar_c_mara">Lanzar cámara</string>
+</resources>

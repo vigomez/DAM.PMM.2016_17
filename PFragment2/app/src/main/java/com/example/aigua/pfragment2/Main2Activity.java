@@ -28,8 +28,17 @@ public class Main2Activity extends AppCompatActivity {
             firstFragment.setArguments(getIntent().getExtras());
 
             // Add the fragment to the 'fragment_container' FrameLayout
+            /*Si el .java que implementa el fragment, TextoFragment declara
+            public class TextoFragment extends Fragment
+            Habría que usar
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.fragment_container, firstFragment).commit();
+            .add(R.id.fragment_container, firstFragment).commit();
+            Para usar la siguiente opcion y dado que estamos en una appCompatActivity
+            hay que declarar
+            public class TextoFragment extends android.app.Fragment
+            Esto también puede depender de la API utilizada*/
+
+            getFragmentManager().beginTransaction().add(R.id.fragment_container, firstFragment).commit();
         }
     }
 }

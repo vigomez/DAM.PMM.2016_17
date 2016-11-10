@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PLocalizador2</string>
+    <string name="title_activity_mi_mapa">Map</string>
+    <string name="google_app_id">artful-memento-149018</string>
+</resources>

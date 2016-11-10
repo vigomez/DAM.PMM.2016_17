@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:id="@+id/menu_perfil"
+            android:title="@string/perfil"
+            android:icon="@drawable/marciano"
+            app:showAsAction="ifRoom"
+            />
+    </menu>
+
+    <!-- cada item añade una opción al menú-->
+    <!-- Si definimos titulo pondra titulo en vez de los tres puntos por defecto-->
+    <!-- Si definimos icono pondra icono en vez de los tres puntos por defecto-->
+    <!-- showAsAction= "ifRoom" indica que se coloque titulo o icono en vez de puntos si hay espacio-->

@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * Clase MenuAdapter extends ArrayAdapter para generar un menu.
  * Decimos específicamente que el array de objetos será de Strings
  */
-public class MenuAdapter extends ArrayAdapter<String> {
+public class  MenuAdapter extends ArrayAdapter<String> {
 
     //guardamos nuestro contexto y nuestros datos
     private Context context;

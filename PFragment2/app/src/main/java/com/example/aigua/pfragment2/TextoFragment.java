@@ -19,7 +19,9 @@ import android.widget.TextView;
  * Use the {@link TextoFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TextoFragment extends Fragment {
+public class TextoFragment extends android.app.Fragment {
+
+/*public class TextoFragment extends Fragment {*/
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
