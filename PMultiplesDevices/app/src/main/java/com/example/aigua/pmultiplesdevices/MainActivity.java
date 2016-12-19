@@ -5,8 +5,12 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements MenuFragment.ListFragmentListener {
+
+
+    public final static int BACK_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +53,33 @@ public class MainActivity extends AppCompatActivity implements MenuFragment.List
         }else{//Dispositivo pequeño
             Intent mainIntent = new Intent(this,Main2Activity.class);
             mainIntent.putExtra("item", item);
-            startActivity(mainIntent);
+            //startActivity(mainIntent);
+            //Esperando que la otra actividad nos devuelva información
+            //BACK_CODE:codigo identificador de la recepción
+            startActivityForResult(mainIntent,BACK_CODE);
+        }
+    }
+
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+
+        if (requestCode == BACK_CODE) {
+
+            if (resultCode == RESULT_OK) {
+
+                String result = data.getStringExtra("opcion");
+                Toast toast1 =
+                        Toast.makeText(getApplicationContext(),
+                                "Habias elegido "+result, Toast.LENGTH_SHORT);
+
+                toast1.show();
+
+
+            }
         }
     }
 

@@ -96,7 +96,6 @@ public class ListFragment extends Fragment {
 
         //INTERACTUANDO
         listview.setOnItemClickListener(new nuestroListener());
-        // Inflate the layout for this fragment
 
     }
 

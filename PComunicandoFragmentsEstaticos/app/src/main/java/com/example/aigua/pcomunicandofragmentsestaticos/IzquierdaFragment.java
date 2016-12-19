@@ -101,6 +101,10 @@ public class IzquierdaFragment extends Fragment implements View.OnClickListener 
         mListener = null;
     }
 
+
+    /**
+     * ESTE ES EL LISTENER DEL BOTON
+     */
     @Override
     public void onClick(View v) {
         //Llamamos al callback mListener, implementado en la parte superior activity
@@ -116,9 +120,7 @@ public class IzquierdaFragment extends Fragment implements View.OnClickListener 
         texto.setText(Mensage);
     }
 
-    /**
-     * ESTE ES EL LISTENER DEL BOTON
-     */
+
 
     /**
      * ESTE ES EL INTERFAZ QUE EL ACTIVITY SUPOERIOR DEBE IMPLEMENTAR
